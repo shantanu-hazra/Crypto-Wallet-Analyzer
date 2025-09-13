@@ -75,6 +75,7 @@ Backend:
   npm install
   
   node server.js
+  
 
 Frontend: (on a different terminal)
   cd frontend
