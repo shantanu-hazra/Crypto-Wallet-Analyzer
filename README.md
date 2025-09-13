@@ -1,7 +1,7 @@
 # 🚀 Crypto Wallet Analyzer
 
-A full-stack tool for analyzing cryptocurrency wallets.  
-It combines a **backend service** to process wallet data and a **frontend UI** to visualize insights.
+Crypto Wallet Analyzer is an **API-first application** to inspect and analyze crypto wallets.  
+It consists of a **backend server** (that exposes APIs for wallet analysis) and a **frontend UI**, allowing users to run analyses on wallet data and view results in a user-friendly web interface.  
 
 ---
 
