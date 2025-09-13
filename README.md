@@ -70,17 +70,20 @@ git clone https://github.com/shantanu-hazra/Crypto-Wallet-Analyzer.git
 cd Crypto-Wallet-Analyzer
 ```
 Backend:
+```bash
+
   cd backend
 
   npm install
   
   node server.js
-  
+```
 
 Frontend: (on a different terminal)
+```bash
   cd frontend
 
   npm install
 
   npm run dev
-  
+```
