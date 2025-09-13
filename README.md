@@ -59,7 +59,7 @@ Checks if the backend server is running.
 }
 ```
 
-###2️⃣ Check Wallet Risk
+### 2️⃣ Check Wallet Risk
 **Endpoint:** 
 ```bash
 POST /api/check-wallet
@@ -89,7 +89,7 @@ POST /api/check-wallet
 
 ```
 
-###3️⃣ Transaction History
+### 3️⃣ Transaction History
 
 **Endpoint:**
 ```bash
