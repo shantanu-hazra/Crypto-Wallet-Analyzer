@@ -7,6 +7,7 @@ It combines a **backend service** to process wallet data and a **frontend UI** t
 
 ## 📌 Table of Contents
 - [Overview](#overview)
+- [How It Works](#how-it-works)
 - [Features](#features)
 - [Architecture](#architecture)
 - [Tech Stack](#tech-stack)
@@ -21,6 +22,23 @@ It combines a **backend service** to process wallet data and a **frontend UI** t
 ## 📖 Overview
 Crypto Wallet Analyzer allows users to **inspect wallet activity** and view meaningful analytics through a clean web interface.  
 It is designed with modularity in mind: the **backend handles APIs & processing**, while the **frontend renders interactive dashboards**.
+
+---
+
+## 🔎 How It Works
+1. **User enters a wallet address** in the frontend UI.  
+2. **Frontend sends the request** to the backend API.  
+3. **Backend validates the wallet address** and checks against known blacklists.  
+4. **Transaction history is fetched** from external APIs (e.g., blockchain explorers).  
+5. **Risk analysis is performed** on the wallet:
+   - Suspicious activity detection  
+   - Frequency of transactions  
+   - Interaction with flagged addresses  
+   - Balance and activity trends  
+6. **Results are returned to the frontend** in JSON format.  
+7. **Frontend displays analysis** in a clean dashboard with charts and summaries.  
+
+📊 *In short: Address → Validation → Data Fetch → Risk Analysis → Visualization.*  
 
 ---
 
