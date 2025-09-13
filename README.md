@@ -15,5 +15,7 @@ Quick setup & run via npm
 Architecture
 
 Crypto-Wallet-Analyzer/
+
 ├── backend/      # API / server logic
+
 └── frontend/     # Client UI
