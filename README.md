@@ -1,17 +1,19 @@
-STEP 1: git clone https://github.com/shantanu-hazra/crypto.git
+Overview
 
-STEP 2: cd crypto
+  	Crypto Wallet Analyzer is a full-stack application to inspect and analyze crypto wallets. It consists of a backend server and a frontend UI, allowing users to run analyses on wallet data and view results in a user-friendly web interface.
 
-STEP 3: Start 2 terminals:
+Features
 
-in 1st terminal: cd backend
+    Run backend services to analyze wallet transactions / balances
+    
+    Web frontend to view results & metrics
+    
+    Modular design: separate frontend & backend
+    
+    Quick setup & run via npm
 
-Step 4: npm i
+Architecture
 
-Step 5: node server.js
-
-in 2nd terminal: cd frontend
-
-Step 6 npm i
-
-Step 7: npm run dev
+		Crypto-Wallet-Analyzer/
+		├── backend/      # API / server logic
+		└── frontend/     # Client UI
