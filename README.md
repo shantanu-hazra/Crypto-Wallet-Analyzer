@@ -73,17 +73,13 @@ Backend:
 ```bash
 
   cd backend
-
   npm install
-  
   node server.js
 ```
 
 Frontend: (on a different terminal)
 ```bash
   cd frontend
-
   npm install
-
   npm run dev
 ```
