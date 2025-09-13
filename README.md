@@ -32,10 +32,10 @@ It is designed with modularity in mind: the **backend handles APIs & processing*
 
 ### 📸 Screenshots
 - **Home Page**  
-  ![Home Page](./screenshots/home.png)
+  ![Home Page](./screenshots/Homepage.png)
 
 - **Analysis Results**  
-  ![Analysis Results](./screenshots/results.png)
+  ![Analysis Results](./screenshots/Result.png)
 
 
 ---
